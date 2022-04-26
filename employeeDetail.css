@@ -1,0 +1,104 @@
+.wrapperForm {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+form {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: thin solid black;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+table td:first-child {
+    text-align: left;
+    font-size: 19px;
+}
+
+table td.button {
+    text-align: center;
+}
+
+input {
+    padding: 5px 0;
+}
+
+input[type=submit] {
+    padding: 5px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px gray;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+table tr.error td {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrapperTable {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.table, .wrap_loading {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+table tr > th, table tr > td {
+    height: fit-content;
+}
+
+/* Employee Card */
+
+.wrapperCard {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.employeeCard {
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    border: thin solid black;
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px 5px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.employeeCard > div {
+    padding: 10px 0;
+}
+
+.heading {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
